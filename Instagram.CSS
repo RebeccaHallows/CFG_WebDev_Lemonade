@@ -1,0 +1,377 @@
+.font-class{
+
+    font-family: 'Amatic SC', cursive;
+    color:#fffd85;
+}
+table, th, td {
+    border: 1px solid teal;
+    border-radius: 15px;
+  }
+table {
+    width: 100%;
+  }
+  #website-title {
+    text-align: center;
+    color:#fffd85;
+    background-color: teal;
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+    border: 30px;
+    border-radius: 25px;
+    height: auto;
+}
+#website-title a{
+  color: #fffd85;
+}
+#website-title img {
+    transition: transform .7s ease-in-out;
+  }
+  #website-title img:hover {
+    transform: rotate(360deg);
+  }
+html {
+    background-color: white;
+    background-image: url(img/Lighter-Lemons.png)
+}
+#nav-id{
+  font-size: 40px;
+  background-color:#fffd85;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  border: 30px;
+  margin-top: 50px;
+  border-radius: 25px
+}
+#nav-id a:link{
+  color: teal;
+}
+#nav-id a:hover {
+  color: turquoise;
+}
+#nav-id a:visited {
+  color: teal;
+}
+#intro-id{
+    text-align:center;
+    background-color: teal;
+    font-size: 30px;
+    max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px
+}
+#second-div{
+    text-align:center;
+    font-size: 50px;
+    color: teal;
+    background-color: #fffd85;
+}
+#lem-pic{
+    border: 20px;
+    border-color: teal;
+    width: 400px;
+    border-width: 20px;
+}
+#instanav-id{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-top: 30px;
+    font-size: 30px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 10px;
+    padding-bottom: 10px;
+    line-height: 2em;
+}
+#instanav-id a{
+  color:teal;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+ /* instagram post */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid black;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin: auto;
+  width: 450px;
+  border: 1px solid grey;
+  padding: 10px;
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+
+}
+
+.top_bar {
+  width: 100%;
+  height: 75px;
+  padding: 25px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.profile_img img {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.profile_img span {
+  margin-left: 50px;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main_img {
+
+  margin-bottom: 15px;
+  object-fit: contain;
+  align-items: center;
+  padding-left: 30px;
+}
+
+
+.main_img img {
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  align-items: center;
+}
+
+.footer {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  color:black;
+}
+
+.icons .fa {
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+.icons .left_side .fa {
+  margin: 0px 3px;
+  color: #010101;
+}
+
+.likeCount p {
+  color: #010101;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content p {
+  padding: 5px 0;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tags a {
+  color:#207be2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding-bottom:5px;
+}
+
+.comments p {
+  font-size: 14px;
+  color: #dbdbdb;
+  padding: 5px 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.comments_box {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  padding: 8px 16px 8px 0;
+  font-size: 24px;
+}
+
+.input_field {
+  width: 100%;
+}
+
+.input_field input {
+  width: 100%;
+  padding: 10px;
+  border: none !important;
+  outline: none;
+}
+
+.btn button {
+  background: transparent;
+  padding: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border: none;
+  color: #207be2;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.icon .fa .fa-heart{
+    color:red;
+}
+
+.fa-heart-o{
+  color:black
+}
+
+/* footer */
+footer{
+    position: relative;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    background: #fffd85;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    color: teal;
+    border-radius: 25px
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+    color: teal;
+}
+
+.footer-content a{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 20px;
+  color: teal;
+}
+/* chat box */
+.form-container {
+    box-sizing: border-box;
+}
+.open-button {
+    background-color: teal;
+    color:#fffd85;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  .chat-popup {
+    display: none;
+    background-color: teal;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #FCFF3F;
+    z-index: 9;
+    min-width: 25%;
+  }
+  .form-container {
+    min-width: 25%;
+    min-height: 400px;
+    padding: 15px;
+    background-color: rgb(252, 250, 136);
+    color: #000000;
+    font-stretch:extra-expanded;
+    font-family: 'Amatic SC', cursive;
+  }
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #FFFFFF;
+    resize: none;
+    min-height: 200px;
+    font-family: 'Amatic SC', cursive;
+  }
+  .form-container textarea:focus {
+  background-color: rgb(245, 242, 77);
+  outline: none;
+}
+/* Set a style for the submit/send button */
+.form-container .send-btn {
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    font-family: 'Amatic SC', cursive;
+    opacity: 0.8;
+  }
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    font-family: 'Amatic SC', cursive;
+  }
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

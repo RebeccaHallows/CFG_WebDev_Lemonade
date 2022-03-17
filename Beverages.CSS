@@ -1,0 +1,273 @@
+html {
+    background-image: url(./img/Lighter-Lemons.png)
+}
+  
+.font-class{
+    font-family: 'Amatic SC', cursive !important;
+    color:#fffd85;
+}
+/* Title CSS */
+#website-title {
+    text-align: center;
+    color:#fffd85;
+    background-color: teal;
+    font-size: 7.5vw;
+    font-family: 'Amatic SC', cursive;
+    border: 30px;
+    border-radius: 25px
+}
+#website-title a:link{
+    color: #fffd85 !important;
+}
+#website-title a{
+  color: #fffd85;
+}
+#website-title a:hover {
+color: #a1e44a;
+}
+#website-title a:visited{
+  color: #fffd85;
+}
+/* Lemon Animation */
+#website-title img {
+  transition: transform .7s ease-in-out;
+}
+#website-title img:hover {
+  transform: rotate(360deg);
+}
+/* Nav */
+#nav-id{
+    font-size: 40px;
+    background-color:#fffd85;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    border: 30px;
+    margin-top: 50px;
+    border-radius: 25px
+}
+#nav-id a:link{
+    color: teal;
+}
+#nav-id a:hover {
+    color: turquoise;
+}
+#nav-id a:visited {
+    color: teal;
+}
+
+.imageslot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 6%;
+}
+.bevImages {
+  transition: 1s ease;
+  width: 300px;
+  height: 300px;
+  padding: 1cm;
+}
+.bevImages:hover{
+  -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: #088f7d;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+@media (min-width: 769px) {
+	.header,
+	.nav-id {
+		display: flex;
+    font-size: medium;
+	}
+	}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+
+.tftable {	
+ 
+  flex-direction: column;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+    padding: 1cm;
+   
+		max-width: 1150px;
+        font-size:12px;
+        color:#29bbb4;
+        width:55%;
+        border-width: 1px;
+        border-color: #69ddd7;
+        border-collapse: collapse;
+    }
+.tftable th {
+    font-size:45px; font-family:'Amatic SC', cursive; 
+    background-color:#fdfccf;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #ebab3a;
+    text-align:center;
+}
+.tftable tr {
+    background-color:#fdfc97;
+}
+.tftable td {
+    font-size:40px; 
+    font-family:'Amatic SC', cursive; 
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ebab3a; 
+    text-align: center;
+}
+.tftable tr:hover {
+    background-color:#ffffff;
+}
+
+
+body {font-family:'Amatic SC', cursive;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(35, 149, 153);
+  color: rgb(251, 255, 255);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #fcff3f;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 15px;
+  background-color: rgb(252, 250, 136);
+  color: #000000;
+  font-family:'Amatic SC', cursive;
+  font-stretch:extra-expanded;
+  
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #ffffff;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: rgb(245, 242, 77);
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-family:'Amatic SC', cursive;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  font-family:'Amatic SC', cursive;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.outer-footer{
+  background: #FFFD85;
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  color: teal;
+  border-radius: 25px;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 20px;
+  color: teal !important;
+}
+.footer-content a:link{
+  color: teal;
+}
+.footer-content a:hover {
+  color: turquoise;
+}
+.footer-content a:visited {
+  color: teal;
+}

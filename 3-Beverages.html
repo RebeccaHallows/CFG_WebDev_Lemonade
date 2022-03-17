@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="font-class">
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amita&family=Roboto&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./Beverages.CSS">
+  <!-- JS Sheet -->
+  <script src="./JS/JS.js"></script>
+    </head>
+
+
+<body>
+   <!-- Website title/logo -->
+   <header id="website-title">
+    <b><a href="./index.html"><img src="img/LLLogo 23.png">Lucina's Homemade Lemonade<img src="img/LLLogo 22.png"></a></b>
+    </header>
+ <nav ID="nav-id"> <b>
+     <a href="./3-Beverages.html"> Beverages</a>
+     &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+      <a href="./2-Contact-Us.html"> Contact Us</a> 
+     &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+     <a href="./4-Instagram.html">Instagram Gallery</a> </b>
+ </nav >
+<!-- Page Title/Subheader -->
+<div ID="intro-id" class="font-class">
+    <p><b>Beverages</b></p>
+</div>
+<!-- Table & Images -->
+  <main>
+  <table class="tftable" >
+    <tr><th>LEMONADE</th><th>KOMBUCHA</th></tr>
+    <tr><td>Original Lemonade</td><td>Lemon Ginger Kombucha</td></tr>
+    <tr><td>Rose Lemonade</td><td>Strawberry Kombucha</td></tr>
+    </table>
+  
+  
+  <div class="imageslot">
+    <img class="bevImages" src="./img/hibakombucha.jpg">
+    <img class="bevImages" src="./img/rosecan.jpg">
+    <img class="bevImages" src="./img/rose2.png">
+
+  </div> 
+  <div>
+  <button onclick="myFunc()">Click Me</button>
+</div>
+<button class="open-button" onclick="openForm()">Chat</button>
+
+  </main>
+
+
+<!-- Live Chat -->
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat to us now!</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+<footer>
+
+  <div class="outer-footer"><div class = "footer-content font-class-2">
+    <p>
+        Don’t forget to follow lucina<br>
+        <a href=“#” class="fa fa-facebook"></a> &nbsp;
+        <a href=“#” class="fa fa-twitter"></a> &nbsp;
+        <a href=“#” class="fa fa-youtube"></a> &nbsp;
+        <a href=“#” class="fa fa-instagram"></a> &nbsp;
+        <a href=“#” class="fa fa-pinterest"></a> &nbsp; <br>
+        copyright &copy;2021 <a href=“#”>Lucina’s Homemade Lemonade</a>
+    </p>
+</div>
+
+</body>
+
+
+</html>
